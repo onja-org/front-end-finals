@@ -4,6 +4,8 @@ Hey everyone!
 
 This will be our final project in the front-end course, so let's make it a good one :)
 
+Please fork-and-clone this project as your own repo.
+
 First things first, let's get you set up. You will need the following…
 
 ## Dependencies
@@ -19,6 +21,13 @@ We'll be using `node-sass` for our Sass compilation. Let's install that by doing
 1. `npm i`
 
 ## Getting started
+
+### Design
+
+You can find the design:
+
+- online at [figma.com/Laaqiq-1-Portfolio-detail-Responsive](https://www.figma.com/file/VgF87mULloYb7HZ1EMCRzU/Laaqiq-1-Portfolio-detail-Responsive?node-id=0%3A1) (Recommended)
+- by importing the `.fig` file in [the `source_materials` folder](./source_materials/) into your figma app.
 
 ### Source files
 
@@ -54,7 +63,7 @@ You'll want to run the `scss:watch` task when you're developing this project.
 
 You have 5 days to convert the design work to a working single webpage. There's a lot to cover here in a week, and we don't expect you to have the entire website done in that time, but it would be great if you could.
 
-So, what is expected then?
+So, what is expected then? We're going to be marking most of the things we've learned this year. Here's a list of things we'll be looking at:
 
 - **All the HTML**
   - Your HTML should be clean, accurate, and consistent.
@@ -62,23 +71,36 @@ So, what is expected then?
   - Structure your HTML nicely.
   - Make sure your HTML is accessible.
   - Make sure your HTML is valid.
-  - *Bonus points*: for progressively enhancing your HTML, e.g. using `<picture>` elements with multiple sources.
+  - *Bonus points*: Progressively enhancing your HTML, e.g. using `<picture>` elements with multiple sources.
 - **As much Sass as you can**
   - Your Sass should use variables at a minimum, and be extended with mixins, functions, and abstract classes if you can.
   - Your Sass output should be orderly, and expected.
   - Keep your SCSS files clean
   - Add helpful comments to the difficult-to-understand parts.
   - You don't have to style everything within the time-frame. But we want to see completed components where possible.
+- **CSS**
+  - Add style to elements that the user can focus, hover over, or interact with.
+  - Your work should be Mobile-First by default, and Responsive.
+  - *Bonus points*: Use Custom Properties if you can.
 - **Images**
-  - Are you using a `background-image` or an `<img>` in the HTML? Make sure it's for the right reasons.
+  - Are you using a CSS `background-image` or an `<img>` in the HTML? Make sure it's for the right reasons.
   - Use the correct image format for each case
   - *Bonus points*: Compress your images
-  - *Bonus points*: Use newer image formats such as WebP and AVIF, while still maintaining support for older formats.
 - **Fonts**
-  - Link up the WOFF2 and WOFF formats to your CSS using as many `@font-face` at-rules as you need.
+  - If you'd like, use a `fonts.google.com`-supplied stylesheet for the fonts, but we really want to see you use your own `@font-face` declarations. Link up the WOFF2 and WOFF formats to your CSS using as many `@font-face` at-rules as you need.
   - Use `local()` functions for locally-installed fonts.
+  - Test that your website works without local font support.
   - *Bonus points*: Subset your fonts
 - **General**
-  - Spelling
-  - Testing
-  - Don't feel pressure to complete the entire page, but rather try complete each component you start. **Leave out the bits that look too complex to make!**
+  - No spelling or grammar mistakes please
+  - Test, test, test!
+  - Don't feel pressure to complete the entire page, but rather try complete each component you start. **Leave out the bits that look too complex and work on them at the end!**
+  - Ensure your commits are frequent and well-described.
+- **Advanced**
+  - Make the menu on mobile work nicely, use your own imagination here.
+  - *Bonus points*: Make the Image Slider, and other components work as intended, maybe you'll need some JS?
+  - *Bonus points*: Use newer image formats such as WebP and AVIF, while still maintaining support for older formats.
+
+## Ready?
+
+Apply everything you've learend before, do your best, and Good luck! 🤓
